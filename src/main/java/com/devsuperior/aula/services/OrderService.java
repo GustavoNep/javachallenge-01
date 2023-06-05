@@ -16,6 +16,4 @@ public class OrderService {
         return order.getBasic() * (1 - order.getDiscount() / 100) + shippingService.shipment(order);
     }
 
-    //pra fazer esse calculo total eu vou precisar de DESCONTO * BASIC + VALOR DO FRETE
-
 }
