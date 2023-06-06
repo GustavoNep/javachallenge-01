@@ -22,7 +22,7 @@ public class AulaApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		System.out.println("Ola Mundo G");
+	
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 
